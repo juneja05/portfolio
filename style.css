@@ -1,0 +1,316 @@
+*{
+    margin:0rem;
+    padding:0rem;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    /* position: fixed;
+    top: 1rem;
+    width: 100%; */
+}
+
+.logo{
+    display: flex;
+    align-items: left;
+    width: 50%;
+    padding: 2rem;
+}
+
+.logo img {
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+}
+.heading {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #000000;
+
+}
+
+
+.navlist{
+    width: 50%;
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+ 
+.navlist li{
+    list-style: none;
+    padding: 2rem;
+    display: inline-block;
+
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+}
+
+.navlist li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url('../image/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* .ExtraImage{
+    padding-top:4rem;
+    box-sizing: border-box;
+    padding: rem;
+    margin: rem;
+} */
+
+.ExtraImage img{
+    padding-top: 4rem;
+    padding-bottom: rem;
+}
+
+.firstSection{
+    display: flex;
+}
+
+.outerBox{
+    display: flex;
+    margin-top: 5rem;;
+}
+
+.firstBox{
+    width:20%;
+}
+
+.secondBox{
+    width:50%;
+    height: 102%;
+    background-color: black;
+    text-align: center;
+    color:white;  
+}
+
+.profile{
+    padding: 2rem;
+}
+
+.name{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 4rem;
+    padding: 1rem;
+    color: wheat;
+}
+
+.designation{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: white;
+}
+.designation2{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.resume{
+    margin: 2rem;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 4rem;
+}
+
+.buttonText{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.thirdBox{
+    width:50%;
+    margin-left: 4rem;
+}
+
+.descriptionTitle{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 8rem;
+}
+.description{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.fourthBox{
+    width:20%;
+}
+
+.outerBox2{
+    margin-right:0;
+    margin-left: auto;
+    display:block;
+}
+
+.emptySpace2{
+    width: 100%;
+}
+
+.experiences{
+    margin-top: 15rem;
+    margin-left: 15rem;
+    padding-left: 1rem;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+.secondSection{
+    display: flex;
+}
+
+.zeroBoxSection2{
+    width:50%;
+}
+.firstBoxSection2{
+    width:150%
+}
+
+.cs{
+    filter: drop-shadow(rem rem rem rgba(0, 0, 0, 0.25));
+
+}
+
+.secondBoxSection2{
+    width:150%;
+}
+
+.thirdBoxSection2{
+    width:150%;
+}
+
+.fourthBoxSection2{
+    width:50%;
+}
+
+.emptySpace3{
+    width: 100%;
+}
+
+.caseStudies{
+    margin-top: 15rem;
+    margin-left: 15rem;
+    padding-left: 1rem;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+.CaseTitle1{
+    margin-top: 1rem;
+    margin-left: 15rem;
+    padding-left: 1rem;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.dream11{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.CaseTitle2{
+    margin-top: 10rem;
+    margin-left: 15rem;
+    padding-left: 1rem;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.koo{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.fourthSection{
+    display: flex;
+}
+
+.bhangra{
+    margin-top: 20rem;
+    margin-left: 15rem;
+    padding-left: 1rem;
+}
+
+.hobbies{
+    margin-top: 25rem;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 8rem;
+}
+
+.bhangraText{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9rem;
+    line-height: 12rem;
+}
+
+.and{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9rem;
+    line-height: 12rem;
+}
+
+.cards{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9rem;
+    line-height: 12rem;
+}
+
+.cardsImage{
+    margin-top: 5rem;
+    margin-right:1rem;
+    margin-left: 12rem;
+} 
