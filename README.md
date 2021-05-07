@@ -1,1 +1,2 @@
 # portfolio
+GROUP THE IMAGES IN IMAGES FOLDER
